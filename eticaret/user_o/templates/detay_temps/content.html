@@ -1,0 +1,101 @@
+{% load static %}
+   <section class="d-flex justify-content-center align-items-center flex-column h-100 min-vh-100">
+        <div class="container p-1">
+           <div class="row">
+               <div class="col-lg-5 col-md-12">
+                <div class="card rounded-0 feature-detail-card h-100 d-flex flex-column text-center">
+                {% if urun.urun_resim %}
+                 <img src="{{urun.urun_resim.url}}" class="card-img-top p-5" alt="...">
+                {% else %}
+                 <img src="{% static 'img/image1.png' %}" class="card-img-top p-5" alt="...">
+                {% endif %}
+                   
+                    <div class="card-body h-100 feature-detail-body d-flex flex-column">
+                    <h4 class="card-title feature-detail-title p-3">All hand-made with natural soy wax, Candleaf is made for your pleasure moments.</h4>
+                    <span class="card-text feature-detail-card-text mt-auto"><i class="fa-solid fa-truck-fast me-3"></i>Free Shipping</span>
+                    </div>
+                </div>
+               </div>
+
+                <div class="col-lg-7 col-md-12">
+                    <div class="card rounded-0 f-detail-info h-100 d-flex flex-column">
+                        <h3 class="f-detail-info-title p-3">{{urun.isim}}</h3>
+                        <div class="card-body h-100 d-flex flex-column">
+                            <div class="row">
+                                <div class="col-lg-5 col-md-5">
+                                  <h4 class="feature-price text-center w-50">{{urun.fiyat}} TL</h4>
+                                    <div class=" d-flex feature-quantity flex-column">
+                                        <h6 class="text-center mt-3 w-50 feature-quantity-title">Quantity</h6>
+                                        <div class="plus text-center">
+                                            <input type="button" value="-" class="button-minus icon-shape icon-sm mx-1 " data-field="quantity">
+                                            <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                            <input type="button" value="+" class="button-plus border rounded-circle   icon-shape-2 icon-sm " data-field="quantity">
+                                        </div>
+                                    </div>
+                                </div>                         
+                            
+
+                                <div class="col-lg-7 col-md-5">
+
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                        <label class="form-check-label" for="exampleRadios1">
+                                            One time purchase
+                                        </label>
+                                      </div>
+
+                                      <div class="row form-check-features p-2 mt-3">
+                                          <div class="col-lg-8 col-md-8 p-0">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                                <label class="form-check-label label-feature-2" for="exampleRadios2">
+                                                  Subscribe and delivery every 
+                                                </label>
+                                              </div>
+                                          </div>
+                                          <div class="col-lg-4 col-md-4 text-end">
+                                            <select name="" id="" class="d-inline-block">
+                                                <option value="4weeks">4 weeks</option>
+                                            </select>
+                                          </div>
+                                          <div class="col-lg-12 col-md-12 p-0">
+                                              <p class="feature-form-text py-1 px-0 text-muted">Subscribe now and get the 10% of discount on every recurring order.  The discount will be applied at checkout. 
+                                                  <a href="" class="text-decoration-none color-details">See details</a>
+                                              </p>
+                                          </div>
+                                      </div>
+
+                                      <a href="cart.html" class="btn btn-details mt-5 w-100 text-white">
+                                        <i class="fa-solid fa-cart-shopping text-white me-3"></i>
+                                        + Add to card
+                                      </a>
+                                </div>
+                                <div class="col-lg-12 col-md-12 feature-list-border p-2 my-3">
+                                    <ul class="list-unstyled list-inline">
+                                        <li class="list-item feature-list">
+                                            <p>Ürün Stok Bilgisi :<span class="text-muted">{{urun.stok}}</span></p>
+                                        </li>
+                                        <li class="list-item feature-list">
+                                            <p>Fragrance :<span class="text-muted">Premium quality ingredients with natural essential oils </span></p>
+                                        </li>
+                                        <li class="list-item feature-list">
+                                            <p>Burning Time: <span class="text-muted"> 70-75 hours</span>
+                                                Dimension: <span class="text-muted">10cm x 5cm</span>
+                                                Weight: <span class="text-muted">400g</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% if urun.aciklama %}
+                <p>{{urun.aciklama | safe}}</p>
+                {% else %}
+                <p>Açıklama Bilgisi Girilmedi</p>
+                {% endif %}
+                
+            </div>
+
+        </div>
+   </section>

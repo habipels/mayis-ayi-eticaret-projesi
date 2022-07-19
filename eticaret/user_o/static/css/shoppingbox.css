@@ -1,0 +1,98 @@
+.shopping-title{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.shopping-backtoshop{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;  
+    color: #56B280;
+}
+.shopping-backtoshop:hover{
+color: #272727;
+}
+.img-shopping{
+    background: #F7F8FA;
+}
+
+.shopping-card-title{
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 58px;
+    color: #272727;
+}
+.shopping-card-link{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #56B280;
+}
+.shopping-card-link:hover{
+    color: #272727;
+}
+.shopping-price,
+.shopping-total{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #272727;
+}
+.plus {
+    border: 1px solid #56B280;
+}
+
+.icon-shape,
+.icon-shape-2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    border: none !important;
+    background-color: #FFF;
+}
+.icon-shape,
+.icon-shape-2:hover{
+    color: #56B280;
+}
+
+
+.icon-sm {
+    width: 2rem;
+    height: 2rem;  
+}
+
+.list-shopping-text{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #272727;
+}
+
+.list-shopping-info{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #9E9E9E;
+}
+
+.btn-shopping{
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: #56B280;
+}
+
+.btn-shopping:hover{
+    background-color: #272727;
+}

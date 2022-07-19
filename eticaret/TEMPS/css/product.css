@@ -1,0 +1,122 @@
+.bg-product-navbar{
+    background-color: #FFF;
+}
+.feature-detail-card{
+    background: #F7F8FA;
+    border: 0;
+}
+.feature-detail-body{
+    background: #FFF;
+}
+
+.f-detail-info{
+    border: none;
+}
+
+.feature-detail-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #272727;
+}
+.feature-detail-card-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #56B280;
+}
+
+
+.f-detail-info-title{
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: -0.89px;
+}
+.feature-price{
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.89px;
+    color: #56B280;
+}
+.feature-quantity-title{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.89px;
+    color: #272727;
+}
+
+.plus {
+    border: 1px solid #56B280;
+    width: 50%;
+}
+
+.form-check{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.89px;
+}
+.form-check-features{
+    border:1px solid #E6E6E6;
+}
+.label-feature-2{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.89px;
+}
+.feature-form-text{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.color-details{
+    color: #56B280;
+}
+.btn-details{
+    background-color: #56B280;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+.btn-details:hover{
+    background-color: #272727;
+}
+.feature-list-border{
+    border:1px solid #E6E6E6;
+}
+
+.icon-shape,
+.icon-shape-2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    border: none !important;
+    background-color: #FFF;
+}
+.icon-shape,
+.icon-shape-2:hover{
+    color: #56B280;
+}
+
+
+.icon-sm {
+    width: 2rem;
+    height: 2rem;
+    
+}

@@ -1,0 +1,17 @@
+{% extends "leyout.html" %}
+{% load static %}
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/main.css' %}">
+<title>E-Ticaret Anasayfa</title>
+<!-- Custom Responsive CSS -->
+<link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+{% endblock head %}
+{% block content %}
+{% include "index_temps/content.html" %}
+{% endblock content %}
+{% block slider %}
+{% include "index_temps/slider.html" %}
+{% endblock slider %}
+{% block sidebar %}
+{% include "index_temps/sidebar.html" %}
+{% endblock sidebar %}

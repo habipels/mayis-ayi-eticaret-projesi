@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: #FFF;
+}
+
+.header{
+    background-image:url("/img/bg-image.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-link{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #272727;
+}
+.nav-link:hover{
+    color: #56B280;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.middle-card{
+    height: 40vh;
+    width: 60%;
+    background: rgba(247, 248, 250, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-card-title{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 58px;
+}
+
+.middle-card-text{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn-m-card{
+    background-color: #56B280;
+}
+
+.btn-m-card:hover{
+    background-color: #0B254B;
+}
+
+
+/* Product */
+
+.product-header{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: -0.89px;
+}
+.product-text{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.10px;
+}
+
+.product-card{
+    border: none;
+    background-color: #F7F8FA;
+    filter: drop-shadow(0px 4px 24px rgba(123, 123, 123, 0.15)) !important;
+}
+
+.product-card-body{
+    background-color: #FFF;
+}
+
+.product-title{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.89px;
+    color: #1D293F;
+}
+
+.product-card-text{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 28px;
+    color: #56B280;
+}
+
+/* Feature */
+
+.bg-feature{
+    background-color: #F7F8FA;
+}
+
+.card-feature{
+    border: none;
+}
+
+.feature-title{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: -0.89px;
+    text-align: left;
+}
+
+.feature-text{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    color: #56B280;
+}
+
+.feature-list-text{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.feature-icon{
+    border: 1px solid #272727;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.btn-b-features{
+    background-color: #56B280;
+    width: 35%;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.btn-b-features:hover{
+    background-color: #0B254B;
+}
+
+.feature-img1,
+.feature-img2,
+.feature-img3{
+position: absolute;
+}
+.feature-img1{
+    z-index: 3;
+}
+.feature-img2{
+    z-index: 1;
+}
+.feature-img3{
+    transform: matrix(1, 0, 0, 1, 250, 0);
+    z-index: 2;
+}
+
+/* Testimonials */
+
+.bg-testimonials{    
+    background: rgba(86, 178, 128, 0.1) !important;
+}
+
+.card-testimonials{
+    border: none;
+}
+
+.testimonials-title{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: -0.89px;
+    color: #0B254B;
+}
+
+.testimonials-text{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.10px;
+
+}
+
+.bg-full{
+    color: rgba(86, 178, 128, 1);
+}
+
+.comment{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.comment-name{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+/* Popular */
+
+.card-popular{
+    border: none;
+}
+
+/* Footer */
+
+.bg-footer{
+    background-color: #272727;
+}
+
+.footer-text{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: -0.5px;
+}
+
+.footer-active-link{
+    color: #56B280;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.footer-active-link:hover{
+    color: #FFF;
+}
+
+.footer-link{
+    color: #E1E1E1;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+}
+.footer-link:hover{
+    color: #56B280;
+}

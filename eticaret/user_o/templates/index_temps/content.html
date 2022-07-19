@@ -1,0 +1,44 @@
+{% load static %}
+    <!-- Products -->
+    <section class="d-flex justify-content-center align-items-center h-100 min-vh-100">
+        <div class="container mt-5 p-5">
+                <h1 class="product-header text-center">Products</h1>
+                <p class="product-text text-center">Order it for you or for your beloved ones </p>
+            <div class="row">
+                            <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                            {% for i in kategoriler  %}
+                            {% if gidece_veri == i.id %}
+                            <a href="/" style="color: red; font-size: x-large;">{{i.isim}}</a>
+                            {% else %}
+                            <a href="/kategori/{{i.id}}/{{i.isim}}">{{i.isim}}</a>
+                            {% endif %}
+                            
+                            <br>
+                            {% endfor %}
+                                
+                            </div>
+            {% for i  in urun %}
+            
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                    <div class="card rounded-0 product-card h-100 d-flex flex-column">
+                    {% if i.urun_resim %}
+                         <img src="{{i.urun_resim.url}}" class="card-img-top p-4" alt="örnek resimdir">
+                    {% else %}
+                        <img src="{% static 'img/image1.png' %}" class="card-img-top p-4" alt="örnek resimdir">
+                    {% endif %}
+                        
+                        <div class="card-body h-100 product-card-body d-flex flex-column">
+                        <a href="/detay/{{i.id}}/{{i.isim}}" class="card-link text-decoration-none">
+                            <h5 class="card-title product-title p-3">{{i.isim}}</h5>
+                        </a>
+                        <p class="card-text text-end px-3 product-card-text mt-auto">{{i.fiyat}} TL</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+            </div>
+        </div>
+    </section> 
+<!-- Products End -->

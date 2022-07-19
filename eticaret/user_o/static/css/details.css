@@ -1,0 +1,117 @@
+.detail-padding{
+    padding: 30px 60px 60px 120px;
+}
+
+.breadcrumb-item-link{
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #56B280;
+}
+
+.breadcrumb-item-link:hover,
+.contact-header-link:hover,
+.detail-backtocart:hover{
+    color: #272727;
+}
+
+
+.contact-header{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.contact-header-text{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.contact-header-link{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #56B280;
+}
+
+.entry-details{
+    border: 1px solid #56B280;
+}
+.detail-checkbox-text,
+.detail-save-text{
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #272727;
+}
+
+.detail-backtocart{
+    color: #56B280;
+}
+
+.form-detail-btn{
+    background-color: #56B280;
+}
+
+.form-detail-btn:hover{
+    background-color: #272727;
+}
+
+
+/* Second box */
+
+.bg-detail-product{
+    background-color:#F2F2F2;
+}
+
+.detail-padding-2{
+    padding: 30px 120px 60px 60px;
+}
+
+.shopping-card-title{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 58px;
+}
+
+.box-2-price{
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 58px;
+    color: #56B280;
+}
+
+.btn-coupon{
+    background-color:#A8A8A8;
+    border-radius: 4px;
+}
+.btn-coupon:hover{
+    background-color: #56B280;
+}
+
+.conclusion>h6,
+span{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #272727;
+}
+.next-step-text{
+    color: #616161;
+}
+.final-price{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26px;
+}

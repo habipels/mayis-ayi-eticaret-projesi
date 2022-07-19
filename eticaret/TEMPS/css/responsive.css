@@ -1,0 +1,88 @@
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    
+.middle{
+    margin-top: 100px;
+}
+.middle-card{
+    height: 40vh;
+    width: 80%;
+}
+.middle-card-title{
+    font-size: 25px;
+}
+.middle-card-text{
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.btn-m-card{
+    margin-bottom: 20px;
+}
+
+.card-user1{
+    height: 450px;
+}
+
+.bg-feature{
+    position: relative;
+}
+.feature-img1,
+.feature-img2,
+.feature-img3{
+position: absolute;
+width: 200px;
+}
+.feature-img1{
+    z-index: 3;
+    top: 0;
+    right: 0;
+}
+.feature-img2{
+    z-index: 1;
+    top: 0;
+    right: 0;
+}
+.feature-img3{
+    display: none;
+}
+
+ }
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+
+@media (max-width:992px) {
+    .bg-feature{
+        position: relative;
+    }
+    .feature-img1,
+    .feature-img2,
+    .feature-img3{
+    position: absolute;
+    width: 250px;
+    }
+    .feature-img1{
+        z-index: 3;
+        top: 0;
+        right: 0;
+    }
+    .feature-img2{
+        z-index: 1;
+        top: 0;
+        right: 0;
+    }
+    .feature-img3{
+        display: none;
+    }
+
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */

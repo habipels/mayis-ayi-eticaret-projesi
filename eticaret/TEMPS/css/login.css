@@ -1,0 +1,23 @@
+.login-page,
+.btn-login{ 
+    background: linear-gradient(90.04deg, rgba(86, 178, 128, 0.2) 0.04%, rgba(86, 178, 128, 0.4) 97.95%);;
+}
+.login-page>.card-header{
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 58px;
+}
+.login-page>.values>input{
+    border: none;
+    border-bottom: 2px solid #272727;
+    background-color: rgba(242, 242, 242, 1);
+}
+.values{
+border: 3px solid #272727;
+border-radius: 40px 40px 0px 0px;
+background-color: rgba(242, 242, 242, 1);
+}
+.registration{
+    display: block;
+}

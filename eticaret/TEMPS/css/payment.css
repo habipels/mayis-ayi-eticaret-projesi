@@ -1,0 +1,22 @@
+.payment-method-title,
+.tax-info-title,
+.billing-title{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #272727;
+}
+.bg-credit{
+    background: linear-gradient(90.04deg, rgba(86, 178, 128, 0.2) 0.04%, rgba(86, 178, 128, 0.4) 97.95%);
+}
+.fa-credit-card{
+    color: #56B280;
+}
+.credit-card-header{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #56B280;
+}

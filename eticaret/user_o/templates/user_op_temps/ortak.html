@@ -1,0 +1,106 @@
+{% extends "leyout.html" %}
+
+{% load static %}
+{% block head %}
+    <!-- Custom CSS -->
+    
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/shipping.css' %}">
+    <link rel="stylesheet" href="{% static 'css/details.css' %}">
+    <link rel="stylesheet" href="{% static 'css/payment.css' %}">
+    <link rel="stylesheet" href="{% static 'css/payment2.css' %}">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+
+    <!-- Custom Responsive CSS -->
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+    <title>E-TİCARET LOGİN</title>
+{% endblock head %}
+
+{% block header %}
+    <section class="header">
+    <div class="container-fluid p-0 bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="/">
+                  
+                      <img src="{% static 'img/logo.png' %}" alt="">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav m-lg-auto text-md-center">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Discovery</a>
+                      </li>
+                      <li class="nav-item mx-lg-5">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                    <span class="text-lg-end text-md-center">
+                        <a href="/user/login/" class="nav-link">
+                            <img src="{% static 'img/user.png' %}" alt="" width="20px" height="20px" class="sd">
+                        </a>
+                        <a href="{% url 'user:register' %}" class="nav-link">
+                            <img src="{% static 'img/user.png' %}" alt="" width="20px" height="20px" class="sd">
+                        </a>
+                    </span>
+                    <span class="text-lg-end text-md-center mx-4">
+                        <a href="" class="nav-link">
+                            <img src="{% static 'img/shopping.png' %}" alt="" width="20px" height="20px">
+                        </a>
+                    </span>
+                  </div>
+                </div>
+              </nav>
+            <!-- Navbar end -->
+        </div>
+    </div>
+
+    <div class="container d-flex align-items-center justify-content-center vh-100">
+        <div class="row w-75" id="log-in">
+            <div class="col-12 justify-content-center d-flex">
+                <div class="login-page text-center w-50">
+                    <div class="card-header text-center p-5">
+                      Login
+                    </div>
+                    <div class="values p-3">
+                        <form action="." method="post">
+                            {% csrf_token %}
+                            {{forms}}
+                            
+                            <br>
+                            <button type="submit" class="btn" style="background-color: rgb(15, 146, 15) ; color: white;">Giriş Yap</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row w-75 registration" id="register">
+            <div class="col-12 justify-content-center d-flex">
+                <div class="login-page text-center w-50">
+                    <div class="card-header text-center p-5">
+                      Registration
+                    </div>
+                    <div class="values p-3">
+                        <form action="." method="post">
+                            {% csrf_token %}
+                            {{kayilar}}
+                            
+                            <br>
+                            <button type="submit" class="btn" style="background-color: rgb(15, 146, 15) ; color: white;">Giriş Yap</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+{% endblock header %}

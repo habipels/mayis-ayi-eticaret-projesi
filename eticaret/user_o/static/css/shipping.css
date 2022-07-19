@@ -1,0 +1,71 @@
+.box1-contact,
+.box1-shipto{
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.60;
+    color: #818181;
+}
+.box1-edit{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.60;
+    color: #56B280;
+}
+
+.box1-edit:hover{
+    color: #272727;
+}
+
+.shipping-method-title{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.89;
+    color: #272727;
+}
+
+.label-shipping{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #272727;
+}
+
+.free{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #272727;
+}
+
+.shipping-backtodetails{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #56B280;
+    text-decoration: none;
+}
+
+.shipping-backtodetails:hover{
+    color: #272727;
+}
+
+.btn-shipping{
+    background-color: #56B280;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.btn-shipping:hover{
+    background-color: #272727;
+}

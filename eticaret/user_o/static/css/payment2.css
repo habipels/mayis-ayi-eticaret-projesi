@@ -1,0 +1,54 @@
+.fa-check{
+    border: 8px solid rgba(86, 178, 128, 0.6);
+    border-radius: 50%;
+    padding: 20px;
+}
+.text-confirmed{
+    color: rgba(86, 178, 128, 0.6);
+}
+.payment-title{
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 58px;
+    color: rgba(39, 39, 39, 1);
+}
+.order-title{
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(86, 178, 128, 1);
+}
+.text-thanks{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.bg-backtoshopping-last{
+    background-color: rgba(86, 178, 128, 1);
+}
+.bg-backtoshopping-last:hover{
+    background-color: #272727;
+}
+.link-receipt{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(86, 178, 128, 1);
+}
+.link-receipt:hover{
+    color: #272727;
+}
+.paid-title{
+    color: rgba(86, 178, 128, 1) !important;
+}
+.paid-price{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(86, 178, 128, 1);
+}
