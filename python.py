@@ -1,0 +1,5 @@
+z = 100
+while z >0:
+    if z % 2 == 0:
+        print(z,end=" ")
+    z -= 1
