@@ -1,2 +1,1 @@
-# mayis-ayi-eticaret-projesi
-mayıs ayı eticaret projesi
+# Habip ELiŞ Projesi 
